@@ -10,8 +10,8 @@
 Clone Repository
 ```bash
 1. Fork this repository
-1. git clone https://github.com/<yourgitusername>/TESTAUTOMATION-WEB.git
-2. Navigate to TTESTAUTOMATION-WEB
+1. git clone https://github.com/<yourgitusername>/TestAutomation.git
+2. Navigate to TestAutomation
 ```
 
 Install the dependencies:
