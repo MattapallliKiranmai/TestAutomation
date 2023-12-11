@@ -5,11 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "node": "^21.2.0",
-    "testcafe": "^3.4.0"
+    "testcafe": "^3.4.0",
+    "testcafe-reporter-html": "^1.4.6"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "./node_modules/.bin/testcafe chrome tests"
+    "test": "./node_modules/.bin/testcafe chrome tests --reporter html:html_reports/results.html"
   },
   "author": "",
   "license": "ISC"
